@@ -2,3 +2,8 @@ body {
     font-family: 'Inria Serif';
     padding: 20px 65px;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
