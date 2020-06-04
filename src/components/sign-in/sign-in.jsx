@@ -1,6 +1,8 @@
 import React  from 'react';
 import FormInput from '../form-input/form-input';
 
+import Button from '../button/button'
+
 import './sign-in.scss'
 
 class SignIn extends React.Component {
@@ -37,7 +39,7 @@ class SignIn extends React.Component {
                     <FormInput name="password" type='password' handleChange={this.handleChange} label="password"value={this.state.email} required />
                    
 
-                <input type='submit' value='Submit Form'/>
+                <Button type='submit'> Sign In</Button>
                 </form>
             </div> 
         );
